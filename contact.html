@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                
+                <!-- Text Input -->
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" required>
+                </p>
+
+                <!-- Email Input -->
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <!-- Number Input -->
+                <p>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="number" id="phone" name="phone">
+                </p>
+
+                <!-- Date Input -->
+                <p>
+                    <label for="preferred-date">Preferred Contact Date:</label><br>
+                    <input type="date" id="preferred-date" name="preferred_date">
+                </p>
+
+                <!-- Dropdown menu (Select) -->
+                <p>
+                    <label for="subject">Subject:</label><br>
+                    <select id="subject" name="subject">
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Technical Support</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                </p>
+
+                <!-- Radio Buttons -->
+                <fieldset>
+                    <legend>Preferred Contact Method:</legend>
+                    <input type="radio" id="contact-email" name="contact_method" value="email" checked>
+                    <label for="contact-email">Email</label><br>
+                    
+                    <input type="radio" id="contact-phone" name="contact_method" value="phone">
+                    <label for="contact-phone">Phone</label>
+                </fieldset>
+
+                <br>
+
+                <!-- Checkboxes -->
+                <fieldset>
+                    <legend>Services Interested In:</legend>
+                    <input type="checkbox" id="service1" name="services" value="web_dev">
+                    <label for="service1">Web Development</label><br>
+
+                    <input type="checkbox" id="service2" name="services" value="design">
+                    <label for="service2">UI/UX Design</label><br>
+
+                    <input type="checkbox" id="service3" name="services" value="seo">
+                    <label for="service3">SEO Optimization</label>
+                </fieldset>
+
+                <br>
+
+                <!-- Large text box (Textarea) -->
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+                </p>
+
+                <!-- Submit Button -->
+                <p>
+                    <button type="submit">Send Message</button>
+                </p>
+
+            </form>
+        </section>
+   
+   
+   
+   
+   
+   
+   
+   <section>
+  <h2>Contact Form</h2>
+  <form action="#" method="POST">
+    <div class="form-group">
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name">
+    </div>
+
+    <div class="form-group">
+      <label for="category">Subject Category:</label>
+      <select id="category" name="category">
+        <option value="general">General Inquiry</option>
+        <option value="support">Technical Support</option>
+      </select>
+    </div>
+
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</section>
+   
+   
+   
+   
+   
+   
+   
+   
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Your Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
